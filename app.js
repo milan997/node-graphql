@@ -6,7 +6,7 @@ const schema = require('./schema/schema');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 const [user, pass] = ['milanm', 'root']
 const connectionString = `mongodb+srv://${user}:${pass}@milanm-gs0uy.mongodb.net/test?retryWrites=true`
 
