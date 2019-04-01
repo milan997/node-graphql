@@ -1,4 +1,4 @@
-'use strict';
+//'use strict';
 
 const graphql = require('graphql');
 const Book = require('../model/book');
